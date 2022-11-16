@@ -1,5 +1,5 @@
 # HateSpeechDetection
-
+For a full project walkthrough, read through natural_lang.ipynb and then GradBoost_vsRandomForest.ipynb
 
 ## Table of Contents
 - [Inspiration](#inspiration)
