@@ -3,7 +3,7 @@
 
 ## Table of Contents
 - [Inspiration](#inspiration)
-- [How I built it](#how-we-built-it)
+- [How I built it](#how-i-built-it)
 - [Challenges](#challenges)
 - [Dataset](#dataset)
 
