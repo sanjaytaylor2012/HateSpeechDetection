@@ -32,7 +32,7 @@ X-axis is characters per message
 This histogram shows that longer messages are more likely to be hate speech and shorter messages are less likely to be hate speech. This is one of the feature that helps the model differenciate between hate speech and non hate speech.
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/sanjaytaylor2012/HateSpeechDetection/blob/main/Screenshot%202022-11-16%20142614.png">
+  <img width="460" height="300" src="https://github.com/sanjaytaylor2012/HateSpeechDetection/blob/main/Screenshot%202022-11-16%20142658.png">
 </p>
 Blue corresponds to hate speech comments
 
