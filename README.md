@@ -17,12 +17,25 @@ The concept for my algorithm is to take in text data from a dataset with informa
 
 
 <p align="center">
-  <img width="460" height="300" src="https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Game1.png">
+  <img width="460" height="300" src="https://github.com/sanjaytaylor2012/HateSpeechDetection/blob/main/Screenshot%202022-11-16%20142614.png">
 </p>
 
 ## How I built it
 
-I built this using a Jupyter Notebook and libraries such as the Natural Learning Toolkit (NLTK) library, pandas, regular expressions (re), Sci-kit Learn, and the string library. First, I performed feature analysis for the model using numpy histograms for a visual representation of how each feature that I created or used would affect the model. I then added punctation percentages as well as text length as features to the model along with the demographics that came with the dataset. Then I tested a Count vectorizer and a TFIDF vectorizer with using Grid Search to determine the most effective and effiecient vectorizer whem applied to a Random Forest Classifier. Then, I optimized both a Random Forest Classifier as well as Gradient Boosting through testing with 5-fold cross validation, TFIDF vectorizer and various parameter settings until I found the most optimal settings for each algorithm. Finally, I pitted the two algorithms against each other and determined that the Gradient Boosting Classifier was the better algorithm in terms of speed, accuracy, and precision.  
+I built this using a Jupyter Notebook and libraries such as the Natural Learning Toolkit (NLTK) library, pandas, regular expressions (re), Sci-kit Learn, and the string library. First, I added punctation percentages as well as text length as features to the model along with the demographics that came with the dataset. I then performed feature analysis for the model using numpy histograms for a visual representation of how each feature that I created or used would affect the model. 
+
+<p align="center">
+  <img width="460" height="300" src="https://github.com/sanjaytaylor2012/HateSpeechDetection/blob/main/Screenshot%202022-11-16%20142614.png">
+</p>
+Blue corresponds to hate speech comments
+Orange corresponds to non-hate speech comments
+X-axis is characters per message
+
+This histogram shows that longer messages are more likely to be hate speech and shorter messages are less likely to be hate speech. This is one of the feature that helps the model differenciate between hate speech and non hate speech.
+
+
+
+. Then I tested a Count vectorizer and a TFIDF vectorizer with using Grid Search to determine the most effective and effiecient vectorizer whem applied to a Random Forest Classifier. Then, I optimized both a Random Forest Classifier as well as Gradient Boosting through testing with 5-fold cross validation, TFIDF vectorizer and various parameter settings until I found the most optimal settings for each algorithm. Finally, I pitted the two algorithms against each other and determined that the Gradient Boosting Classifier was the better algorithm in terms of speed, accuracy, and precision.  
 
 ## Challenges
 The biggest challange I faced was understanding the how pandas DataFrames fit into the models. Getting the classifiers to fit each of the dataframes as well as formatting them correctly required a deep understanding of of dataframes.
@@ -34,9 +47,7 @@ Vincent Lin - https://www.linkedin.com/in/vincent-lin-uf/
 Michael Logsdon - https://www.linkedin.com/in/michaellogsdon1/  
 Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/  
 
-<p align="center">
-  <img width="460" height="300" src="https://github.com/Antonio-Villarreal/Dyscovery/blob/main/Images/Team.jpg">
-</p>
+
 
 ## Dataset
 Dataset on Kaggle: https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset?select=youtube_parsed_dataset.csv
