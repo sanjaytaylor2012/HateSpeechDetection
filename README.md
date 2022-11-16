@@ -47,14 +47,5 @@ Then I tested a Count vectorizer and a TFIDF vectorizer with using Grid Search t
 ## Challenges
 The biggest challange I faced was understanding the how pandas DataFrames fit into the models. Getting the classifiers to fit each of the dataframes as well as formatting them correctly required a deep understanding of of dataframes.
 
-## Team
-Antonio Villarreal - https://www.linkedin.com/in/antoniovillarreal2024/  
-Sanjay Taylor - https://www.linkedin.com/in/sanjaytaylor/  
-Vincent Lin - https://www.linkedin.com/in/vincent-lin-uf/  
-Michael Logsdon - https://www.linkedin.com/in/michaellogsdon1/  
-Walid Barazenji - https://www.linkedin.com/in/walid-barazenji/  
-
-
-
 ## Dataset
 Dataset on Kaggle: https://www.kaggle.com/datasets/saurabhshahane/cyberbullying-dataset?select=youtube_parsed_dataset.csv
