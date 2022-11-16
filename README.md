@@ -18,7 +18,7 @@ The concept for my algorithm is to take in text data from a dataset with informa
 
 ## How I built it
 
-I built this using a Jupyter Notebook and libraries such as the Natural Learning Toolkit (NLTK) library, pandas, regular expressions (re), Sci-kit Learn, and the string library. First, I added punctation percentages as well as text length as features to the model along with the demographics that came with the dataset. I then performed feature analysis for the model using numpy histograms for a visual representation of how each feature that I created or used would affect the model. 
+I built this using a Jupyter Notebook and libraries such as the Natural Learning Toolkit (NLTK) library, pandas, regular expressions (re), Sci-kit Learn, and the string library. First, I added punctation percentages as well as text length as features to the model along with the demographics that came with the dataset. This includes the messages themselves, number of comments the user left, number of subscribers they have, number of videos they have uploaded, whether they have profanity in their username, and their age. I then performed feature analysis for the model using numpy histograms for a visual representation of how each feature that I created or used would affect the model. 
 
 <p align="center">
   <img width="460" height="300" src="https://github.com/sanjaytaylor2012/HateSpeechDetection/blob/main/Screenshot%202022-11-16%20142614.png">
