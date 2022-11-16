@@ -42,7 +42,7 @@ X-axis is number of comments left by a user
 
 This histogram shows that the users that write hateful comments tend to also write MORE comments. This is one of the feature that helps the model differenciate between hate speech and non hate speech.
 
-. Then I tested a Count vectorizer and a TFIDF vectorizer with using Grid Search to determine the most effective and effiecient vectorizer whem applied to a Random Forest Classifier. Then, I optimized both a Random Forest Classifier as well as Gradient Boosting through testing with 5-fold cross validation, TFIDF vectorizer and various parameter settings until I found the most optimal settings for each algorithm. Finally, I pitted the two algorithms against each other and determined that the Gradient Boosting Classifier was the better algorithm in terms of speed, accuracy, and precision.  
+Then I tested a Count vectorizer and a TFIDF vectorizer with using Grid Search to determine the most effective and effiecient vectorizer when applied to a Random Forest Classifier. Then, I optimized both a Random Forest Classifier as well as Gradient Boosting through testing with 5-fold cross validation, TFIDF vectorizer and various parameter settings until I found the most optimal settings for each algorithm. Finally, I pitted the two algorithms against each other and determined that the Gradient Boosting Classifier was the better algorithm in terms of speed, accuracy, and precision.  
 
 ## Challenges
 The biggest challange I faced was understanding the how pandas DataFrames fit into the models. Getting the classifiers to fit each of the dataframes as well as formatting them correctly required a deep understanding of of dataframes.
