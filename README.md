@@ -10,7 +10,7 @@ For a full project walkthrough, read through natural_lang.ipynb and then GradBoo
 ---
 
 ## Inspiration
-In the current day, social media such as Instagram, Twitter, and Youtube has the potential to be a great space where people share ideas and spread joy. However, it can also be a place of toxicity and hate. With bilions of users, it is impossible to catch every instance of hate speech. However, machine learning algorithms can be used to detect hate speech using Natural Language Processing in order to flag a message as hate speech and remove it from the platform.
+In the current day, social media such as Instagram, Twitter, and Youtube has the potential to be a great space where people share ideas and spread joy. However, it can also be a place of toxicity and hate. With billions of users, it is impossible to catch every instance of hate speech. However, machine learning algorithms can be used to detect hate speech using Natural Language Processing in order to flag a message as hate speech and remove it from the platform.
 
 ## Concept
 The concept for my algorithm is to take in text data from a dataset with information such as user demographics, their message, and whether or not their message was considered to be hate speech. The data was taken from the comment section of the site Youtube. Then the model would train itself based on this data and be able to detect if new comments are hate speech or not.
@@ -42,7 +42,7 @@ X-axis is number of comments left by a user
 
 This histogram shows that the users that write hateful comments tend to also write MORE comments. This is one of the feature that helps the model differenciate between hate speech and non hate speech.
 
-Then I tested a Count vectorizer and a TFIDF vectorizer with using Grid Search to determine the most effective and effiecient vectorizer when applied to a Random Forest Classifier. Then, I optimized both a Random Forest Classifier as well as Gradient Boosting through testing with 5-fold cross validation, TFIDF vectorizer and various parameter settings until I found the most optimal settings for each algorithm. Finally, I pitted the two algorithms against each other and determined that the Gradient Boosting Classifier was the better algorithm in terms of speed, accuracy, and precision.  
+Then I tested a Count vectorizer and a TFIDF vectorizer using Grid Search to determine the most effective and effiecient vectorizer when applied to a Random Forest Classifier. Then, I optimized both a Random Forest Classifier as well as Gradient Boosting through testing with 5-fold cross validation, TFIDF vectorizer and various parameter settings until I found the most optimal settings for each algorithm. Finally, I pitted the two algorithms against each other and determined that the Gradient Boosting Classifier was the better algorithm in terms of testing speed (NOT fitting speed), accuracy, and precision.  
 
 ## Challenges
 The biggest challange I faced was understanding the how pandas DataFrames fit into the models. Getting the classifiers to fit each of the dataframes as well as formatting them correctly required a deep understanding of of dataframes.
